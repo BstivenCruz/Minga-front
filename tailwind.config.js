@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : {
-        "fotter" : 'url("./src/assets/Footer.svg")'
+        "fotter" : 'url("./src/assets/Footer.svg")',
+        "role" : 'url("./src/assets/NewRole.svg")'
       },
       colors : {
         'uno' : '#F9A8D4',

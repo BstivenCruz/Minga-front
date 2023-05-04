@@ -1,12 +1,12 @@
 import "./App.css";
 import Main from "./layouts/Main";
-import Drawer from "./components/Drawer";
+import NewRole from "./pages/NewRole";
 function App() {
   return (
     <>
       <Main>
       <div className="min-h-[90vh]">
-        <Drawer />
+      <NewRole />
       </div>
       </Main>
     </>

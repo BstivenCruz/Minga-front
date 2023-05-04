@@ -13,7 +13,7 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 export default function Footer() {
   return (
     <>
-      <div className="px-20 flex flex-col items-center">
+      <div className="px-20 flex flex-col items-center mt-10">
         <img src={footer} className="  w-[100%] " />
         <div className="flex w-full justify-between px-10 items-center border-b-2 my-10">
           <div>
