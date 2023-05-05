@@ -8,7 +8,7 @@ import {
 export default function NewRole() {
   return (
     <div className="flex w-[100vw] min-h-screen">
-      <div className=" w-[50%] border-2 border-red-500 flex flex-col items-center justify-center text-dos">
+      <div className=" w-[50%]  flex flex-col items-center justify-center text-dos">
         <p className="my-7 font-ligth">Change role to</p>
         <img src={logo} />
         <div className="flex  items-center my-5 w-[80%] p-3 border border-[#E5E5E5] rounded-xl">
@@ -34,7 +34,7 @@ export default function NewRole() {
           </div>
         </div>
       </div>
-      <div className=" w-[50%] border-2 border-red-500 bg-role bg-contain bg-center flex flex-col items-center">
+      <div className=" w-[50%]  bg-role bg-contain bg-center flex flex-col items-center">
         <p className="text-white w-[70%] mt-40 text-3xl">
           Minga.com is the best place to find manga reviews. We’ve been super
           impress by the quality of applicants.

@@ -1,4 +1,3 @@
-import Home from './Home'
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,7 +35,6 @@ export default function Carrusel() {
         style={{color: "#ffffff"}}
       />
     </div>
-    <Home />
     </>
 
   );

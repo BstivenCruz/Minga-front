@@ -2,7 +2,7 @@ import home from "../assets/Home.svg";
 import Botton from "./Botton";
 export default function Home() {
   return (
-    <div className=" min-h-screen">
+    <div className=" min-h-[80vh]">
       <img src={home} className="w-[90%] absolute inset-x-[5%]  rounded-xl " />
       <div className="w-fit text-white relative inset-x-[18%] -bottom-40">
         <h1 className="text-7xl my-2">Live the emotion of the manga</h1>
