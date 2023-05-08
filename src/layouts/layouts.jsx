@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-export default function Main({ children }) {
+import { Outlet } from "react-router-dom";
+export default function Main() {
   return (
     <>
       <Nav />
       <div className="border-black min-h-fit flex justify-center">
-        {children}
+        <Outlet />
       </div>
       <Footer />
     </>

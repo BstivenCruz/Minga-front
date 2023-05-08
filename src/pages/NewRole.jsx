@@ -30,7 +30,10 @@ export default function NewRole() {
           </div>
           <div className="text-left ml-20">
             <h2 className="text-2xl">Join as a Company!</h2>
-            <p className="font-light"> I’m a company and I want to publish my comics</p>
+            <p className="font-light">
+              {" "}
+              I’m a company and I want to publish my comics
+            </p>
           </div>
         </div>
       </div>
