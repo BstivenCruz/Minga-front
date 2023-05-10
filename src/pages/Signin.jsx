@@ -1,7 +1,11 @@
+import register from '../assets/register.svg'
+
 export default function Signin() {
   return (
-    <div>
-      <div></div>
+    <div className='flex w-[100vw] border border-red-600'>
+      <div className='w-1/2 object-cover'>
+        <img  className=' object-cover h-screen w-screen' src={register}/>
+      </div>
       <div>
         <h1>Welcome back!</h1>
         <p>
