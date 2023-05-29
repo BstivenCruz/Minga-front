@@ -5,11 +5,9 @@ import { Outlet } from "react-router-dom";
 export default function Main() {
   return (
     <>
-      <Nav />
-      <div className="min-h-fit flex justify-center">
+        <Nav />
         <Outlet />
-      </div>
-      <Footer />
+        <Footer />
     </>
   );
 }
