@@ -4,11 +4,15 @@ export default function Home() {
   return (
     <div className=" min-h-[80vh]">
       <img src={home} className="w-[90%] absolute inset-x-[5%]  rounded-xl " />
-      <div className="w-fit text-white relative inset-x-[18%] -bottom-40">
+      <div className="w-fit text-white relative inset-x-[18%]  -bottom-40">
         <h1 className="text-7xl my-2">Live the emotion of the manga</h1>
-        <p className="text-2xl font-thin my-2">Find the perfect manga for you</p>
+        <p className="text-2xl font-thin my-2">
+          Find the perfect manga for you
+        </p>
         <p>#MingaForever 🔥</p>
-        <Botton text="Sign In!" />
+        <div className="w-fit mt-4">
+          <Botton to="/signin" text="Sign In!" />
+        </div>
       </div>
     </div>
   );

@@ -28,7 +28,9 @@ export default function Footer() {
               <FontAwesomeIcon icon={faVimeo} size="2xl" />
               <FontAwesomeIcon icon={faYoutubeSquare} size="2xl" />
             </div>
-            <Botton text="Donate" img={faHeart} />
+            <div className="mt-2">
+              <Botton text="Donate" img={faHeart} />
+            </div>
           </div>
         </div>
       </div>
