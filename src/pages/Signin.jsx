@@ -40,12 +40,15 @@ export default function Signin() {
           </fieldset>
 
           <div className="self-center w-full mt-2 capitalize">
-            <Botton text="sign up" />
+            <Botton text="sign in" />
+          </div>
+          <div className="self-center w-full mt-2 capitalize">
+            <Botton text="google" />
           </div>
         </form>
         <p>
           you don't have an account yet?{" "}
-          <Anchor to='/signup' className=" text-dos">Sign up </Anchor>
+          <Anchor to='/signup' className="ml-2 text-dos">Sign up </Anchor>
         </p>
         <p>
           Go back to
