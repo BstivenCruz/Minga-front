@@ -1,4 +1,4 @@
-import footer from "../assets/Footer.svg";
+/* import footer from "../assets/Footer.svg";*/
 import logo from "../assets/Logo.svg";
 import Botton from "./Botton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,16 +10,18 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
+
+
 export default function Footer() {
   return (
     <>
       <div className="w-full   flex flex-col items-center mt-5">
-        <div className="  w-full h-[15vh]">
+        {/*  <div className=" w-full h-[20vh]  ">
           <img
             src={footer}
-            className=" w-full object-cover content-center h-full rounded-[40%/0%_0%_95%_95%]"
+            className=" w-full object-cover content-center h-full "
           />
-        </div>
+        </div> */}
         <div className="flex w-full justify-between px-10 items-center border-b-2 pb-5 my-10">
           <div>
             <a className="mr-20">Home</a>
