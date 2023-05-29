@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <>
       <Nav />
-      <div className="border-black min-h-fit flex justify-center">
+      <div className="min-h-fit flex justify-center">
         <Outlet />
       </div>
       <Footer />
